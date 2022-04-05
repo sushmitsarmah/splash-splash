@@ -13,10 +13,7 @@ interface MyAppProps extends AppProps {
 }
 
 export default function MyApp(props: MyAppProps) {
-  ;<link
-    href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css"
-    rel="stylesheet"
-  />
+  ;<link href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css" rel="stylesheet" />
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props
   return (
     <CacheProvider value={emotionCache}>

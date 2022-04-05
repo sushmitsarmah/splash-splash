@@ -17,15 +17,15 @@ const theme = createTheme({
   components: {
     MuiOutlinedInput: {
       defaultProps: {
-        notched: true
-      }
+        notched: true,
+      },
     },
     MuiInputLabel: {
       defaultProps: {
-        shrink: true
-      }
-    }
-  }
+        shrink: true,
+      },
+    },
+  },
 })
 
 export default theme
