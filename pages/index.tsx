@@ -1,13 +1,26 @@
 import { Box, Typography } from '@mui/material'
 import type { NextPage } from 'next'
+import Navbar from '../components/navbar'
+import Header from '../components/header'
+import Footer from '../components/footer'
+import Section1 from '../components/section1'
+import Section2 from '../components/section2'
+import Section3 from '../components/section3'
+import Bonus from '../components/bonus_task'
+import FloatingSection from '../components/floating_section'
 
 const Home: NextPage = () => {
   return (
-    <Box m={4}>
-      <Typography color="primary" variant="h1">
-        This is a really sad splash page :(
-      </Typography>
-    </Box>
+    <>
+      <Navbar />
+      <Header />
+      <Section1 />
+      <FloatingSection />
+      <Section2 />
+      <Bonus />
+      <Section3 />
+      <Footer />
+    </>
   )
 }
 
